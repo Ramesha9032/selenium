@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15388" started-at="2020-09-22T04:30:59Z" finished-at="2020-09-22T04:31:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15388" started-at="2020-09-22T04:30:59Z" finished-at="2020-09-22T04:31:14Z">
+      <class name="UtilsDatadriven.ExcelDataProvider2">
+        <test-method status="PASS" signature="setUptext()[pri:0, instance:UtilsDatadriven.ExcelDataProvider2@475530b9]" name="setUptext" is-config="true" duration-ms="3578" started-at="2020-09-22T10:00:59Z" finished-at="2020-09-22T10:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUptext -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:UtilsDatadriven.ExcelDataProvider2@475530b9]" name="test1" duration-ms="5741" started-at="2020-09-22T10:01:04Z" data-provider="getdata" finished-at="2020-09-22T10:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramesha.ajsdn@dsaj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdcs23422]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:UtilsDatadriven.ExcelDataProvider2@475530b9]" name="test1" duration-ms="4301" started-at="2020-09-22T10:01:10Z" data-provider="getdata" finished-at="2020-09-22T10:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chaidsjjb@gmial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfcsd23423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- UtilsDatadriven.ExcelDataProvider2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

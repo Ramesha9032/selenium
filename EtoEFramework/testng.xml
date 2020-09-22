@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" > <!-- parallel = "tests" -->
+
+<Listenesrs>
+<Listener class-name = "SeleniumProject.Listeners"/>
+</Listenesrs>
+
+  <test name="Homepagevalidation">
+    <classes>
+      <class name="SeleniumProject.Homepage"/>
+    </classes>
+    </test>
+    
+     <test name="Titlevalidation">
+    <classes>
+      <class name="SeleniumProject.validateTitle"/>
+       </classes>
+    </test>
+    
+    <test name="ValidatingNavigationbar">
+    <classes>
+      <class name="SeleniumProject.ValidatingNavigationbar"/>
+    </classes>
+  </test>
+    
+    <test name="AppTestvalidation">
+    <classes>
+      <class name="SeleniumProject.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

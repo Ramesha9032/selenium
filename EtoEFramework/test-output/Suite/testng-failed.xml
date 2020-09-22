@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Titlevalidation(failed)">
+    <classes>
+      <class name="SeleniumProject.Homepage">
+        <methods>
+          <include name="closeweb"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- SeleniumProject.Homepage -->
+      <class name="SeleniumProject.validateTitle">
+        <methods>
+          <include name="closebrowse"/>
+          <include name="basepagenavigation"/>
+          <include name="befretest"/>
+        </methods>
+      </class> <!-- SeleniumProject.validateTitle -->
+      <class name="SeleniumProject.ValidatingNavigationbar">
+        <methods>
+          <include name="beforetest"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- SeleniumProject.ValidatingNavigationbar -->
+    </classes>
+  </test> <!-- Titlevalidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
