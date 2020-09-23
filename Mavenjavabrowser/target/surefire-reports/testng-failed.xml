@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="qaclickacademy.listeners"/>
+  </listeners>
+  <test name="Testssdrtghads(failed)">
+    <classes>
+      <class name="qaclickacademy.AssertionhomepageTitle3">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qaclickacademy.AssertionhomepageTitle3 -->
+      <class name="qaclickacademy.homepage">
+        <methods>
+          <include name="initializ"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qaclickacademy.homepage -->
+      <class name="qaclickacademy.AssertionhomepageURl4">
+        <methods>
+          <include name="homepageabc"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qaclickacademy.AssertionhomepageURl4 -->
+    </classes>
+  </test> <!-- Testssdrtghads(failed) -->
+</suite> <!-- Failed suite [Suite] -->
